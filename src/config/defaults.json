@@ -1,0 +1,18 @@
+{
+  "sender": {
+    "wxid": "XXXXXXX"
+  },
+  "receiver": {
+    "default_wxid": "wxid_1@chatroom",
+    "groups": {
+      "群组1": ["wxid_1@chatroom", "wxid_2@chatroom"],
+      "群组2": ["wxid_3@chatroom", "wxid_4@chatroom"],
+      "测试群": ["wxid_1@chatroom"]
+    }
+  },
+  "api": {
+    "card": "http://192.168.50.177:9011/VXAPI/Msg/ShareLink",
+    "text": "http://192.168.50.177:9011/VXAPI/Msg/SendTxt",
+    "batch": "http://192.168.50.177:9011/VXAPI/Msg/BatchSendMsg"
+  }
+} 
